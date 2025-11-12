@@ -138,12 +138,12 @@ To reproduce the results from the paper, please perform the following steps:
 3. Run experiments for nonlinear double integrator
     - the datasets for testing are already included in the repository, also the training datasets for the approximate MPC baseline are included
     - the configuration files for training all models are already included in the repository (`approxMPC_cfgs.json`, `predictor_cfgs.json`, `solver_cfgs.json`)
-    a. run `training.py` in `src/examples/nonlinear_double_integrator/` to train predictor, solver and approximate MPC models
-    b. run `evaluation.py` in `src/examples/nonlinear_double_integrator/` to evaluate all trained models
-    c. run `visualization.py` in `src/examples/nonlinear_double_integrator/` to generate figures and tables
+    1. run `training.py` in `src/examples/nonlinear_double_integrator/` to train predictor, solver and approximate MPC models
+    2. run `evaluation.py` in `src/examples/nonlinear_double_integrator/` to evaluate all trained models
+    3. run `visualization.py` in `src/examples/nonlinear_double_integrator/` to generate figures and tables
 4. Run experiments for parametric optimization problems
     - the datasets for testing are already included in the repository
     - the configuration files for training all models are already included in the repository (`predictor_cfgs.json`, `solver_cfgs.json`)
-    a. run `training.py` in `src/examples/parametric_OP/` to train predictor and solver models
-    b. run `evaluation.py` in `src/examples/parametric_OP/` to evaluate all trained models
-    c. run `visualization_paramOP.py` in `src/examples/parametric_OP/` to generate figures and tables
+    1. run `training.py` in `src/examples/parametric_OP/` to train predictor and solver models
+    2. run `evaluation.py` in `src/examples/parametric_OP/` to evaluate all trained models
+    3. run `visualization_paramOP.py` in `src/examples/parametric_OP/` to generate figures and tables
